@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <div className="w-full h-20 bg-white flex justify-between items-center px-17">
+    <div className="w-full h-20 bg-white flex justify-between items-center px-17 fixed top-0">
       <div className="text-black font-bold text-2xl">🌍 Travel Guide</div>
       <div>
         <ul className="flex justify-center items-center gap-10">
