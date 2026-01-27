@@ -1,9 +1,12 @@
-import React from 'react'
+"use client";
+import { useParams } from "next/navigation";
+import React from "react";
 
-const page = () => {
+const page = ({ params }) => {
+  const { city } = useParams();
   return (
-    <div>page</div>
-  )
-}
+    <div className="text-white fixed mt-25">{city} is the beautiful city</div>
+  );
+};
 
-export default page
+export default page;
