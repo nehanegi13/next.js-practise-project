@@ -16,6 +16,9 @@ const page = ({ params }) => {
       {city == "NewYork" && (
         <Image src={newyorkimage} width={400} height={400} alt="paris-image" />
       )}
+      {city == "Tokyo" && (
+        <Image src={tokyoimage} width={400} height={400} alt="paris-image" />
+      )}
     </div>
   );
 };
