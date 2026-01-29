@@ -2,6 +2,8 @@
 import { useParams } from "next/navigation";
 import React from "react";
 import pairsimage from "@/assets/paris.jpg";
+import newyorkimage from "@/assets/newyork.avif";
+import tokyoimage from "@/assets/tokyo.jpg";
 const page = ({ params }) => {
   const { city } = useParams();
   return (
